@@ -67,7 +67,6 @@
   "gulp-jshint-cached": "duplicate of gulp-jshint",
   "gulp-twitter": "not a gulp plugin",
   "gulp-print": "duplicate of gulp-debug",
-  "gulp-rev-all": "duplicate of gulp-rev",
   "gulp-css": "duplicate of gulp-minify-css",
   "gulp-uncss-task": "duplicate of gulp-uncss",
   "gulp-juice": "duplicate of gulp-inline-css",
@@ -275,10 +274,10 @@
   "gulp-properties": "not a gulp plugin",
   "gulp-babel-transpiler": "duplicate of gulp-babel",
   "gulp-uglifyjs-wrapper": "duplicate of gulp-uglify",
-  "gulp-rollup": "use the `rollup` module directly",
   "gulp-livereload": "abandoned. use gulp-refresh",
   "gulp-minify-css": "deprecated. use gulp-clean-css.",
   "gulp.livereload": "not maintained anymore. use gulp-refresh",
   "gulp-cssnano": "use gulp-clean-css or cssnano with gulp-postcss",
-  "gulp-lodash-autobuild": "promotes anti-patterns, use child_process"
+  "gulp-lodash-autobuild": "promotes anti-patterns, use child_process",
+  "gulp-better-rollup": "use rollup-stream, gulp-rollup, or the `rollup` module directly"
 }
